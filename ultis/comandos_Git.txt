@@ -19,7 +19,7 @@
 - git log 
 	historial de ramas 
 
-- git config --global user.email "ingenieroavila21@gmail.com"
-- git config --global user.name "JohanAvilaU17"
+git config --global user.email "ingenieroavila21@gmail.com"
+git config --global user.name "Johan-Avila"
 
 .gitignore

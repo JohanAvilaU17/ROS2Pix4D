@@ -27,8 +27,8 @@ class ParamServer
 {
 public:
     ros::NodeHandle nh;
-    string path_base_topics = "/ros_to_pix4d/topics/";
-    string path_format = "/ros_to_pix4d/img/format";
+    string path_base_topics = "/ros2pix4d/topics/";
+    string path_format = "/ros2pix4d/img/format";
 
     string img_format;
 
@@ -51,7 +51,7 @@ public:
     string get_path_package()
     {
         string path_package;
-        path_package = ros::package::getPath("ros_to_pix4d");
+        path_package = ros::package::getPath("ros2pix4d");
         return path_package;
     }
 };

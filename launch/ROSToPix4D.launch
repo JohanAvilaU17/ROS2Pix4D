@@ -1,8 +1,8 @@
 <launch>
 
-    <arg name="project" default="ros_to_pix4d" />
+    <arg name="project" default="ros2pix4d" />
 
-    <rosparam file="$(find ros_to_pix4d)/config/params.yaml" command="load" />
+    <rosparam file="$(find ros2pix4d)/config/params.yaml" command="load" />
 
     <node pkg="$(arg project)" type="$(arg project)_ROSToPix4D" name="$(arg project)_ROSToPix4D" output="screen" respawn="true" />
 

@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>ros_to_pix4d</name>
+  <name>ros2pix4d</name>
   <version>0.0.0</version>
-  <description>The ros_to_pix4d package</description>
+  <description>The ros2pix4d package</description>
 
   <maintainer email="ingenieroavila21@gmail.como">avila</maintainer>
   <license>TODO</license>

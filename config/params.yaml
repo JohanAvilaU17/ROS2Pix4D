@@ -1,9 +1,15 @@
-ros_to_pix4d:
+ros2pix4d:
   topics:
-    img: /dfm27uro135ml/cam/image_raw
     gps: "/vectornav/GPS"
     # gps: "/zedf9p/LLA_zedf9p"
-    odom: "/vectornav/Odom"
+    imu: "/vectornav/IMU"
+    cam: /dfm27uro135ml/cam/image_raw
+
+  rosbag:
+    path: "/home/johanavila/johan_ws/src"
+    # name: "lote_2_nataima_arroz_2022-10-03-09-32-17"
+    name: "casona_7_2022-09-30-15-52-28"
+    # name: "alto_cruz_2022-10-08-12-53-19"
 
   img:
     format: "jpg"
