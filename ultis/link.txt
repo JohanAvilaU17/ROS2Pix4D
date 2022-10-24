@@ -1,0 +1,14 @@
+
+https://github.com/ntnu-arl/icra-2017-datasets
+
+https://www.youtube.com/watch?v=T-udub8ns4w
+
+- Exiv2
+-> https://github.com/jim-easterbrook/python-exiv2/tree/main/examples
+-> https://exiv2.org/tags.html 
+
+- py3Exiv2
+-> https://stackoverflow.com/questions/41075975/impossible-to-install-py3exiv2-with-pip
+
+- pi4xd
+-> https://support.pix4d.com/hc/en-us/articles/360016450032-Specifications-of-xmpcamera-tags

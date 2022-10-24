@@ -1,0 +1,9 @@
+ros_to_pix4d:
+  topics:
+    img: /dfm27uro135ml/cam/image_raw
+    gps: "/vectornav/GPS"
+    # gps: "/zedf9p/LLA_zedf9p"
+    odom: "/vectornav/Odom"
+
+  img:
+    format: "jpg"

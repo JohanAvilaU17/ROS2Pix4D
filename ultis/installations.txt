@@ -1,0 +1,10 @@
+
+pip install opencv-python 
+pip install opencv-contrib-python
+pip install progressbar2
+pip install pandas
+
+sudo apt-get install build-essential python-all-dev libexiv2-dev libboost-python-dev
+pip3 install py3exiv2
+
+pip install evo --upgrade --no-binary evo
